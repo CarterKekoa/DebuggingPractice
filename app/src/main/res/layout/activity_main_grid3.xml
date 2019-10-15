@@ -8,8 +8,11 @@
     tools:context=".MainActivity">
 
 
-        <Button
+        <ImageButton
             android:id="@+id/buttonOne"
+            android:src="@drawable/monster"
+            android:scaleType="fitCenter"
+            android:contentDescription="An image of a monster for buttons"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -17,10 +20,13 @@
             android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
             android:onClick="onButtonClick"
-            android:text="One"/>
+            android:tag="00"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/buttonTwo"
+            android:src="@drawable/monster1"
+            android:scaleType="fitCenter"
+            android:contentDescription="An image of a monster for buttons"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -28,24 +34,30 @@
             android:layout_rowSpan="2"
             android:layout_gravity="fill_vertical"
             android:onClick="onButtonClick"
-            android:text="Two"/>
+            android:tag="01"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/buttonThree"
+            android:src="@drawable/monster2"
+            android:scaleType="fitCenter"
+            android:contentDescription="An image of a monster for buttons"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:onClick="onButtonClick"
-            android:text="Three"/>
+            android:tag="10"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/buttonFour"
+            android:src="@drawable/monster3"
+            android:scaleType="fitCenter"
+            android:contentDescription="An image of a monster for buttons"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:onClick="onButtonClick"
-            android:text="Four"/>
+            android:tag="11"/>
 
 </GridLayout>
